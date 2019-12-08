@@ -11,6 +11,7 @@ namespace PublisherLeasing.DAL
 {
     public class PublisherManagement
     {
+        //
         Helper h;
         public PublisherManagement()
         {
