@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8CF2147C-F288-4A92-A432-9C22E4D65B7B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BookLeasing.UI.WindowsForms</RootNamespace>
+    <AssemblyName>BookLeasing.UI.WindowsForms</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAddBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddBook.Designer.cs">
+      <DependentUpon>frmAddBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddPublisher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddPublisher.Designer.cs">
+      <DependentUpon>frmAddPublisher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmin.Designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmContract.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContract.Designer.cs">
+      <DependentUpon>frmContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFavorites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFavorites.Designer.cs">
+      <DependentUpon>frmFavorites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLeasedBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLeasedBooks.Designer.cs">
+      <DependentUpon>frmLeasedBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListBook.Designer.cs">
+      <DependentUpon>frmListBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPayment.Designer.cs">
+      <DependentUpon>frmPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaymentReason.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPaymentReason.Designer.cs">
+      <DependentUpon>frmPaymentReason.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaymentType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPaymentType.Designer.cs">
+      <DependentUpon>frmPaymentType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReport.Designer.cs">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStandartUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStandartUser.Designer.cs">
+      <DependentUpon>frmStandartUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegister.Designer.cs">
+      <DependentUpon>frmRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateBook.Designer.cs">
+      <DependentUpon>frmUpdateBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmUpdateInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUpdateInfo.Designer.cs">
+      <DependentUpon>frmUpdateInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAddBook.resx">
+      <DependentUpon>frmAddBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddPublisher.resx">
+      <DependentUpon>frmAddPublisher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContract.resx">
+      <DependentUpon>frmContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFavorites.resx">
+      <DependentUpon>frmFavorites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLeasedBooks.resx">
+      <DependentUpon>frmLeasedBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListBook.resx">
+      <DependentUpon>frmListBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPayment.resx">
+      <DependentUpon>frmPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPaymentReason.resx">
+      <DependentUpon>frmPaymentReason.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPaymentType.resx">
+      <DependentUpon>frmPaymentType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReport.resx">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegister.resx">
+      <DependentUpon>frmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStandartUser.resx">
+      <DependentUpon>frmStandartUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateBook.resx">
+      <DependentUpon>frmUpdateBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUpdateInfo.resx">
+      <DependentUpon>frmUpdateInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BookLeasing.BLL\BookLeasing.BLL.csproj">
+      <Project>{00263f96-c6a1-4e96-a269-5795b756d92c}</Project>
+      <Name>BookLeasing.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookLeasing.CustomException\BookLeasing.CustomException.csproj">
+      <Project>{6fa38c1e-a7fa-4f19-ad16-65cd7794ecb7}</Project>
+      <Name>BookLeasing.CustomException</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookLeasing.DTO\BookLeasing.DTO.csproj">
+      <Project>{0823e671-9285-4c82-a5a0-dc734552a873}</Project>
+      <Name>BookLeasing.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookLeasing.Model\BookLeasing.Model.csproj">
+      <Project>{0d7d8c23-35a0-48d5-b31d-dcbb3c34148c}</Project>
+      <Name>BookLeasing.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

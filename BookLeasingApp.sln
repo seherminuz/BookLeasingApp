@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookLeasing.Model", "BookLeasing.Model\BookLeasing.Model.csproj", "{0D7D8C23-35A0-48D5-B31D-DCBB3C34148C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookLeasing.DAL", "BookLeasing.DAL\BookLeasing.DAL.csproj", "{F326A32D-65F0-41AC-BB62-1653A825EDB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookLeasing.BLL", "BookLeasing.BLL\BookLeasing.BLL.csproj", "{00263F96-C6A1-4E96-A269-5795B756D92C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookLeasing.DTO", "BookLeasing.DTO\BookLeasing.DTO.csproj", "{0823E671-9285-4C82-A5A0-DC734552A873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookLeasing.CustomException", "BookLeasing.CustomException\BookLeasing.CustomException.csproj", "{6FA38C1E-A7FA-4F19-AD16-65CD7794ECB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookLeasing.UI.WindowsForms", "BookLeasing.UI.WindowsForms\BookLeasing.UI.WindowsForms.csproj", "{8CF2147C-F288-4A92-A432-9C22E4D65B7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D7D8C23-35A0-48D5-B31D-DCBB3C34148C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7D8C23-35A0-48D5-B31D-DCBB3C34148C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7D8C23-35A0-48D5-B31D-DCBB3C34148C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7D8C23-35A0-48D5-B31D-DCBB3C34148C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F326A32D-65F0-41AC-BB62-1653A825EDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F326A32D-65F0-41AC-BB62-1653A825EDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F326A32D-65F0-41AC-BB62-1653A825EDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F326A32D-65F0-41AC-BB62-1653A825EDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00263F96-C6A1-4E96-A269-5795B756D92C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00263F96-C6A1-4E96-A269-5795B756D92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00263F96-C6A1-4E96-A269-5795B756D92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00263F96-C6A1-4E96-A269-5795B756D92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0823E671-9285-4C82-A5A0-DC734552A873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0823E671-9285-4C82-A5A0-DC734552A873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0823E671-9285-4C82-A5A0-DC734552A873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0823E671-9285-4C82-A5A0-DC734552A873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FA38C1E-A7FA-4F19-AD16-65CD7794ECB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FA38C1E-A7FA-4F19-AD16-65CD7794ECB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FA38C1E-A7FA-4F19-AD16-65CD7794ECB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FA38C1E-A7FA-4F19-AD16-65CD7794ECB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF2147C-F288-4A92-A432-9C22E4D65B7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF2147C-F288-4A92-A432-9C22E4D65B7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF2147C-F288-4A92-A432-9C22E4D65B7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF2147C-F288-4A92-A432-9C22E4D65B7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52267B47-CCCE-490A-942C-6EFD27446616}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/kitapkiralamapisagor
+		SccProjectUniqueName0 = BookLeasing.UI.WindowsForms\\BookLeasing.UI.WindowsForms.csproj
+		SccProjectName0 = BookLeasing.UI.WindowsForms
+		SccLocalPath0 = BookLeasing.UI.WindowsForms
+		SccProjectUniqueName1 = BookLeasing.CustomException\\BookLeasing.CustomException.csproj
+		SccProjectName1 = BookLeasing.CustomException
+		SccLocalPath1 = BookLeasing.CustomException
+		SccLocalPath2 = .
+		SccProjectUniqueName3 = BookLeasing.Model\\BookLeasing.Model.csproj
+		SccProjectName3 = BookLeasing.Model
+		SccLocalPath3 = BookLeasing.Model
+		SccProjectUniqueName4 = BookLeasing.DAL\\BookLeasing.DAL.csproj
+		SccProjectName4 = BookLeasing.DAL
+		SccLocalPath4 = BookLeasing.DAL
+		SccProjectUniqueName5 = BookLeasing.BLL\\BookLeasing.BLL.csproj
+		SccProjectName5 = BookLeasing.BLL
+		SccLocalPath5 = BookLeasing.BLL
+		SccProjectUniqueName6 = BookLeasing.DTO\\BookLeasing.DTO.csproj
+		SccProjectName6 = BookLeasing.DTO
+		SccLocalPath6 = BookLeasing.DTO
+	EndGlobalSection
+EndGlobal
